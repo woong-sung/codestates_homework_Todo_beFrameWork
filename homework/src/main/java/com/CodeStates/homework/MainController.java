@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String helloWorld(){
-        return "To-do Apllication by JSW";
+        return "To-do Apllication by JSW (ver 0.0.2)";
     }
 }
